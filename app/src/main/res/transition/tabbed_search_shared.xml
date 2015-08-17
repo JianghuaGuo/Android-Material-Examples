@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The transitions which us used for the entrance and exit of shared elements. Here we declare
+    two different transitions which are targeting specific views.
+-->
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:interpolator/anticipate_overshoot">
+    <!-- changeImageTransform is used for the ImageViews which are shared 改变目标图片的大小和缩放比例-->
+    <!--<changeImageTransform/>-->
+    <!-- changeBounds is used for the TextViews which are shared 改变目标视图的布局边界-->
+    <changeBounds android:duration="2000"></changeBounds>
+    <!-- 裁剪目标视图边界 -->
+    <!--<changeClipBounds></changeClipBounds>-->
+    <!-- 改变目标视图的缩放比例和旋转角度 -->
+    <!--<changeTransform></changeTransform>-->
+    <!--<changeScroll></changeScroll>-->
+</transitionSet>

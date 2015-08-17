@@ -28,4 +28,281 @@
 
     <string name="title_activity_elevation_sample">ElevationSampleActivity</string>
 
+    <string name="default_country_iso_code">af</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="inbox">Inbox</string>
+    <string name="add_now">ADD NOW</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
+    <string name="update">Update</string>
+    <string name="error">Error</string>
+    <string name="book">Book</string>
+    <string name="notes">Notes</string>
+    <string name="skip">Skip</string>
+    <string name="go">GO</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_rate_share">Rate &amp; Share</string>
+    <string name="menu_activate">Activate</string>
+    <string name="cancelled">cancelled</string>
+    <string name="you_rated">You rated</string>
+    <string name="payment_type">Payment Methods</string>
+    <string name="report_an_issue">Contact Support</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="book_now">Book Now</string>
+    <string name="error_try_again">Error, please try again later.</string>
+    <string name="home_pick_up_default">Choose your pick-up</string>
+    <string name="home_drop_off_default">Choose your drop-off</string>
+    <string name="home_from">FROM:</string>
+    <string name="home_to">TO:</string>
+    <string name="home_notes_hint"><i>Notes to driver</i></string>
+    <string name="home_type_advance">Pick-up: <b>Now</b></string>
+    <string name="home_foot_note">Choose your drop-off above.</string>
+    <string name="heading_favourite">Favourites</string>
+    <string name="heading_recent">RECENT LOCATIONS</string>
+    <string name="heading_local">NEARBY LOCATIONS</string>
+    <string name="heading_results">RESULTS</string>
+    <string name="search_first_load">Use the text-box above to search for a location</string>
+    <string name="frequent_first_load">Most Recent locations and those that you add to Favourites</string>
+    <string name="btn_privacy_policy">Privacy Policy</string>
+    <string name="btn_terms">Terms of Use</string>
+    <string name="register_name_hint">Name</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_phone_hint">Phone</string>
+    <string name="register_referral_hint">Driver Referral Code</string>
+    <string name="btn_register">Register Now</string>
+    <string name="register_failed">Registration failed, please check your data and try again</string>
+    <string name="register_ok">Thank you. You will receive an activation code shortly.</string>
+    <string name="update_failed">Update fail, please check your data and try again</string>
+    <string name="update_ok">Your Profile has been successfully updated</string>
+    <string name="activation_text_1">We have sent you an SMS with a code to the number below:</string>
+    <string name="activation_text_2">Please enter the 4-digit activation code to complete the verification progress</string>
+    <string name="activation_resend_button">Resend SMS</string>
+    <string name="activation_voice_button">Voice Activation</string>
+    <string name="activation_voice_button_loading">Calling Now &#8230;</string>
+    <string name="activation_voice_sent">Voice activation successfully requested</string>
+    <string name="activation_cservice_select_country">Select Country</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="activation_failed">Activation failed, please try again</string>
+    <string name="activation_ok">Activation successful.</string>
+    <string name="profile_empty_fav">\"Favourite\" your frequent trips for easy one-tap booking</string>
+    <string name="profile_empty_history">No booking history yet.</string>
+    <string name="trip_cost_range">%1$s%2$s-%3$s</string>
+    <string name="trip_cost_fixed">%1$s%2$s</string>
+    <string name="time_now">PICKUP NOW</string>
+    <string name="picker_error">Please pick a time in the future</string>
+    <string name="distance_measure">km</string>
+    <string name="text_search_hint">Search&#8230;</string>
+    <string name="fare_type_fixed">Fare</string>
+    <string name="estimated_fare">Estimated Fare</string>
+    <string name="create_booking_please_reregister">We are sorry we need you to re-register your account</string>
+    <string name="create_booking">Creating your booking, please wait.</string>
+    <string name="create_customer">Creating your account, please wait.</string>
+    <string name="activating_customer">Activating your account, please wait.</string>
+    <string name="no_internet">No internet!</string>
+    <string name="no_connectivity">Are you online? Please check your device\'s connection settings.</string>
+
+    <!-- Locating Screen -->
+    <string name="locating_title">Finding You A Driver</string>
+    <string name="locating_driver">Locating your driver, please wait&#8230;</string>
+    <string name="locating_bidding">Bidding&#8230;</string>
+    <string name="locating_contacting">Contacting&#8230;</string>
+    <string name="locating_success_cash_top">Success! We found you a driver</string>
+    <string name="locating_success_hi">Hi, my name is</string>
+    <string name="locating_success_distance">and I am %1s KM away.</string>
+    <string name="locating_success_advance">and I will be your driver</string>
+    <string name="locating_success_plate_number">Plate Number</string>
+    <string name="locating_success_payment_type">Please Pay By</string>
+    <string name="locating_failed_oh_no">Oh No!</string>
+    <string name="locating_failed_text">Sorry we couldn\'t find you a driver. Try these:</string>
+    <string name="locating_failed_back">Back to home screen</string>
+    <string name="locating_failed_retry">@string/retry</string>
+    <string name="locating_failed_option_title">What else can you do?</string>
+    <string name="locating_failed_option_one">Change your pick-up / drop-off locations</string>
+    <string name="locating_failed_option_one_sub">Use recognizable landmarks instead of obscure places. Eg KFC rather than Guan\'s cafe.</string>
+    <string name="locating_failed_option_two">Add notes to driver</string>
+    <string name="locating_failed_option_two_sub">Help drivers identify your location, especially in huge areas like malls.</string>
+    <string name="locating_failed_gc_title">Meet Grabcar!</string>
+    <string name="locating_failed_gc__promo_invalid_title">Promo not valid</string>
+    <string name="locating_failed_gc_sub">Your affordable, everyday private car service. Ride safe, ride sure.</string>
+    <string name="locating_failed_gc__promo_invalid_sub">Your promo code is not valid with this ride.</string>
+    <string name="locating_failed_gc_btn">I\'ll try Grabcar</string>
+    <string name="locating_failed_gc_without_promo_btn">Try GrabCar without promo</string>
+    <string name="locating_failed_gc_validating_btn">Validating&#8230;</string>
+    <string name="locating_failed_tips_title">Add Tips</string>
+    <string name="locating_failed_tips_title_sub">Adding a tip may encourage more drivers to bid.</string>
+    <string name="locating_failed_tips_type">Type</string>
+    <string name="locating_failed_tips_type_sub">A different taxi type may be near you!</string>
+    <string name="locating_failed_tips_disclaimer">You can reset your promo code, change pickup/dropoff, and taxi type back in the main booking screen.</string>
+    <string name="locating_failed_tips_back">Back to main booking screen</string>
+    <string name="locating_failed_tips_or">or</string>
+    <string name="locating_failed_tips_optional">(Optional)</string>
+    <string name="status_assigned">Assigned</string>
+    <string name="from_you">from you</string>
+    <string name="btn_try_again">Try Again</string>
+    <string name="share_your_trip_with">Share your ride via</string>
+    <string name="advance_booking_reminder">We will remind you of this booking, <b>30 MIN</b> before the set pickup time.</string>
+    <string name="cancelled_booking_reminder">This booking has been cancelled.</string>
+    <string name="complete_trip_how_ride">How was your ride\?</string>
+    <string name="submit_button">Submit</string>
+    <string name="cancel_booking_resend">Sorry, we failed to complete your cancel request.\n\nResend?</string>
+    <string name="menu_cancel_trip">Cancel Booking</string>
+    <string name="booking_cancelled">Your booking has been cancelled.</string>
+    <string name="onboard_with">In Transit</string>
+    <string name="pref_history_title">History</string>
+    <string name="btn_call_driver">Contact Driver</string>
+    <string name="failed_to_load_booking">Failed to load booking</string>
+    <string name="text_search_no_results">No results found.\n\nTry another keyword, or use a different provider below.</string>
+    <string name="error_connect_to_server">Connection to the server failed! Please check your Internet connection and try again.</string>
+    <string name="remove_account_ok">Your account details have been removed from this device</string>
+    <string name="major_update_available">A major update is available in the Play Store. You must update the app to continue.</string>
+    <string name="beta_update_available">A new Beta Update is available. Please update your app thru our Beta Channel.</string>
+    <string name="call_driver">Call</string>
+    <string name="edit_profile_text">You will have to re-activate your account for the changes to take effect.</string>
+    <string name="register_terms_and_condition_agreement">By registering, I have read and agreed to the\n<![CDATA[<a href="http://grabtaxi.com/terms.html">Terms of Use</a> and the <a href="http://grabtaxi.com/privacy.html">Privacy Policy</a>]]></string>
+    <string name="places_provider_frequent">FREQUENT</string>
+    <string name="places_provider_map">MAP</string>
+    <string name="places_provider_poi_service">PLACES</string>
+    <string name="places_provider_google">GOOGLE</string>
+    <string name="places_provider_foursquare">FOURSQUARE</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="promo_code_instruction">Please enter a valid promo code</string>
+    <string name="promo_code_cancellation">Are you sure you want to remove the promo code?</string>
+    <string name="promo_code_validation">Validating your promo code&#8230;</string>
+    <string name="continue_text">Continue</string>
+    <string name="promo_code_is_invalid">The promo code that you entered is invalid.</string>
+    <string name="promo_code_cancel_message">Please try again or continue without promo code.</string>
+    <string name="taxi_list_loading">Loading vehicle and service types&#8230;\nPlease Wait</string>
+    <string name="taxi_type_failed_to_load">Hmmm, something went wrong.\nTap to retry</string>
+    <string name="btn_confirm_booking">Confirm Booking?</string>
+    <string name="referral_code_msg">We would like to reward you and the awesome person who referred you</string>
+    <string name="btn_confirm_location">Set Location</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="dropoff_location">Dropoff Location</string>
+    <string name="hint_map_landmark">Landmark, Building Name, Block, House Number etc</string>
+    <string name="hint_map_address">Loading Address&#8230;</string>
+    <string name="label_no_address">Place Not Found</string>
+    <string name="label_no_address_location">Try A Different Location</string>
+    <string name="imageView">ImageView</string>
+    <string name="customer_support_loading">Loading, please wait&#8230;</string>
+    <string name="tracking_min">min</string>
+    <!-- Driver cancelled dialog -->
+    <string name="driver_cancelled_dialog_title">Booking Cancellation</string>
+    <string name="driver_cancelled_dialog_message">Sorry, the driver has cancelled your booking. Please make another booking, or call our operator for assistance.</string>
+    <!-- V4 -->
+    <string name="register_name_missing_v3">Please enter a valid name</string>
+    <string name="register_email_missing_v3">Please enter a valid email</string>
+    <string name="register_phone_missing_v3">Please enter a valid phone number</string>
+    <string name="dash">&#8211;</string>
+    <string name="register_referral_v3">I have a Driver Referral Code</string>
+    <string name="country_dialog_search_hint_v3">Search</string>
+    <string name="support_phone_button">Call customer support</string>
+    <string name="support_divider_or">Or</string>
+    <string name="support_include_driver">*Please include your Booking ID for driver related issues</string>
+    <string name="app_version">App version:</string>
+    <string name="feedback_hint">Type your feedback here</string>
+    <string name="feedback_thanks">Thank you for your feedback</string>
+    <string name="submit_dialog_title">Confirmation</string>
+    <string name="submit_dialog_message">Are you sure you want to submit?</string>
+
+    <!-- Registration -->
+    <string name="registration_dialog_title">Remove Account</string>
+    <string name="registration_dialog_message">Are you sure you want to remove the account?</string>
+    <string name="registration_dialog_cancel">Cancel</string>
+    <string name="registration_dialog_yes">Yes</string>
+
+    <!-- Payments -->
+    <string name="payments_method_cash">Cash</string>
+    <string name="payments_method_card">Card</string>
+    <string name="payments_method_dropoff">Please add a pick-up or drop-off location</string>
+    <string name="payments_method_card_text">You have not added your card detail.</string>
+
+    <!-- All strings that contain the brand name / package name should goes here -->
+    <string name="share_content">I tried %1$s and I thought you\'d love it as much as I do. Download from https://grabtaxi.com/download</string>
+    <string name="send_to">Share %1$s via</string>
+    <string name="create_booking_unknown">Failed to contact the %1$s server.  Please try again.</string>
+    <string name="share_trip_content">I\'m riding in %1$s with %2$s! See my trip live here %3$s &#8212; %4$s: Ride Safe, Ride Sure.</string>
+    <string name="market_url" translatable="false">market://details?id=%1$s</string>
+
+    <!-- Booking Info screen -->
+    <string name="booking_info_title">Choose Your Service Type</string>
+    <string name="booking_adv_unavailable">Advanced Booking is currently unavailable for this service</string>
+
+    <!-- Rate trip dialog -->
+    <string name="one_star">VERY BAD</string>
+    <string name="two_star">POOR</string>
+    <string name="three_star">IT\'S OK</string>
+    <string name="four_star">GOOD</string>
+    <string name="five_star">EXCELLENT! </string>
+
+    <!-- Tracking Screen -->
+    <string name="tracking_estimated_fare">Estimated Fare</string>
+    <string name="tracking_notes">Notes to driver</string>
+    <string name="tracking_tips">Tips</string>
+    <string name="tracking_promo">Promo</string>
+    <string name="tracking_cash">CASH</string>
+    <string name="tracking_card">CARD</string>
+    <string name="tracking_cancel_booking">CANCEL BOOKING</string>
+    <string name="tracking_share_dialog_message">Share your ride with family, friends, loved ones or the world!</string>
+    <string name="tracking_share_dialog_facebook">Facebook</string>
+    <string name="tracking_share_dialog_twitter">Twitter</string>
+    <string name="tracking_share_dialog_sms">SMS</string>
+    <string name="tracking_share_dialog_more">More</string>
+
+    <!-- Transit Screen -->
+    <string name="transit_i_have_arrived">I have safely arrived</string>
+
+    <!-- Rate Trip Screen -->
+    <string name="rate_your_trip">Please Rate Your Trip</string>
+    <string name="rate_how_was_ride">How was your ride?</string>
+    <string name="rate_submit">Submit</string>
+    <string name="rate_got_it">Got it.</string>
+    <string name="rate_got_it_thanks">Thanks. We appreciate \n your feedback!</string>
+    <string name="rate_share_us">Share us with your friends?</string>
+    <string name="rate_the_app">Rate our app</string>
+    <string name="rate_got_it_message">We noticed that you weren\'t too happy with your ride. Mind telling us what went wrong?</string>
+    <string name="rate_thank_you">Thank you!</string>
+    <string name="rate_thank_you_message">Your feedback will help us to improve our service.</string>
+    <string name="rate_btn_done">Done</string>
+    <string name="rate_btn_skip">Skip</string>
+    <string name="rate_btn_submit">Submit</string>
+    <string name="rate_btn_submitting">SUBMITTING&#8230;</string>
+
+    <!-- Transit Screen -->
+    <string name="splash_internet_title">@string/no_internet</string>
+    <string name="splash_internet_text">Are you online? Please check your device\'s connection settings</string>
+    <string name="splash_internet_action">Try again</string>
+    <string name="splash_location_title">Location not found!</string>
+    <string name="splash_location_text">Please turn on Location Services. For the best experience, please set it to "High Accuracy"</string>
+    <string name="splash_location_action">Got it</string>
+
+    <!-- Warning Dialog -->
+    <string name="sorry">Sorry</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="cancel_booking_confirm_message">Please be considerate as driver is already on his way to pick you up. Only cancel the booking if you have to.</string>
+    <string name="cancel_booking_driver_nearby_message">We detect the driver is already nearby. Your request to cancel this booking has been denied.</string>
+
+    <!-- Profile -->
+    <string name="history_current">Current Booking</string>
+    <string name="history_no_drop_off">No drop-off selected</string>
+    <string name="sending">Sending&#8230;</string>
+    <string name="mid_dot">&#160;·&#160;</string>
+
+    <!-- Sharing -->
+    <string name="facebook_messenger">FB Messenger</string>
+    <string name="contacts">Contacts</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="wechat">WeChat</string>
+    <string name="line">Line</string>
+
+    <!-- Grabcar -->
+    <string name="gc_default_message_title">GrabCar, an awesome ride at a price you’ll love.</string>
+    <string name="gc_default_message_body">We\'ve made it easier for existing GrabCar users. GrabCar is now your default car type.</string>
+    <string name="gc_got_it">GOT IT</string>
+    <string name="booking_shared_elements_transition_name">Booking Shared</string>
+
 </resources>

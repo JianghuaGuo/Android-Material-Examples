@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/booking_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="72dp" />
+
+            <ImageView
+                android:id="@+id/map_error_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:padding="24dp"
+                android:scaleType="centerInside"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/linear_gradient"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/booking_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@android:color/transparent" />
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/booking_pick_up_layout"
+                    style="@style/BookingPOICardLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:transitionName="@string/booking_shared_elements_transition_name"
+                    android:layout_marginBottom="4dp"
+                    android:onClick="onClick">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/booking_pick_up_label"
+                            style="@style/BookingPOILayoutPrefix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_poi_search_pickup"
+                            android:drawableStart="@drawable/ic_poi_search_pickup"
+                            android:text="@string/home_from" />
+
+                        <TextView
+                            android:id="@+id/booking_pick_up_text"
+                            style="@style/BookingPOILayoutLocation"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/home_pick_up_default"
+                            android:visibility="invisible" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/booking_drop_off_layout"
+                    style="@style/BookingPOICardLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:transitionName="@string/booking_shared_elements_transition_name"
+                    android:onClick="onClick">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/booking_drop_off_label"
+                            style="@style/BookingPOILayoutPrefix"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_poi_search_dropoff"
+                            android:drawableStart="@drawable/ic_poi_search_dropoff"
+                            android:text="@string/home_to" />
+
+                        <TextView
+                            android:id="@+id/booking_drop_off_text"
+                            style="@style/BookingPOILayoutLocation"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/home_drop_off_default"
+                            android:visibility="invisible" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+</RelativeLayout>

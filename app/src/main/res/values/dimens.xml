@@ -11,4 +11,10 @@
     <dimen name="button_press_elevation">4dp</dimen>
     <dimen name="navigation_drawer_width">240dp</dimen>
 
+    <dimen name="poi_search_item_distance_width">48dp</dimen>
+
+    <dimen name="radius_cornered_shape">2dp</dimen>
+
+    <dimen name="tracking_panel_height">80dp</dimen>
+
 </resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/black_1"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/poi_action_bar"
+        style="@style/BookingPOICardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="@string/booking_shared_elements_transition_name"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="onClickGoBack"
+                android:paddingLeft="6dp"
+                android:paddingRight="14dp"
+                android:src="@drawable/ic_profile_back_arrow"
+                android:tint="@android:color/black" />
+
+            <EditText
+                style="?android:attr/textViewStyle"
+                android:id="@+id/poi_ab_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/text_search_hint"
+                android:imeOptions="actionSearch"
+                android:inputType="text|textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textCursorDrawable="@null">
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/poi_ab_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_poi_search_cancel"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <com.saulmm.material.activities.TabbedSearchViewPager
+        android:id="@+id/poi_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

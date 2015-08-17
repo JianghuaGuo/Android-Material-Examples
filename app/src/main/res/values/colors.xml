@@ -29,5 +29,57 @@
     <color name="color_set_4_accent">#d500f9</color>
 
 
+    <!-- V3 -->
+    <color name="side_menu_text_press">#84BF41</color>
+    <color name="black_1">#14202C</color>
+    <color name="green_header">#31AB5D</color>
+    <color name="red">#FF0000</color>
 
+    <!-- Colors for Tracking screen -->
+    <color name="tracking_font_note">#434D56</color>
+    <color name="tracking_font_normal">#4F5760</color>
+    <color name="tracking_font_big">#2B353D</color>
+
+    <!-- Redesign -->
+    <color name="grabtaxi_green">#2ECC71</color>
+    <color name="grabtaxi_green_2">#00CA62</color>
+    <color name="grabtaxi_dark_green">#25a35a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_20_percent">#33FFFFFF</color>
+    <color name="white_40_percent">#66FFFFFF</color>
+    <color name="white_70_percent">#B3FFFFFF</color>
+    <color name="gold">#ffd700</color>
+    <color name="foursquare_pink">#f94877</color>
+    <color name="google_blue">#4285f4</color>
+    <color name="google_red">#db4437</color>
+    <color name="buttercup">#F39C12</color>
+    <color name="oslo_gray">#8A9096</color>
+    <color name="havelock_blue">#4A90E2</color>
+    <color name="highlighted_blue">#36B7E5</color>
+    <color name="grey_95">#f2f2f2</color>
+    <color name="grey_91">#e8e8e8</color>
+    <color name="grey_88">#E0E0E0</color>
+    <color name="grey_86">#dbdbdb</color>
+    <color name="grey_81">#cecece</color>
+    <color name="grey_76">#c1c1c1</color>
+    <color name="grey_59">#979797</color>
+    <color name="grey_49">#7F7F7F</color>
+    <color name="grey_47">#777777</color>
+    <color name="grey_46">#747474</color>
+    <color name="grey_50_percent">#80dbdbdb</color>
+    <color name="black_10_percent">#1B000000</color>
+    <color name="black_50_percent">#7F000000</color>
+    <color name="black_85_percent">#D9000000</color>
+    <color name="cancel_red">#DA4839</color>
+    <color name="promo_blue">#00BCD4</color>
+
+    <!-- Colors of Transit screen -->
+    <color name="transit_bg_green_dark">#F22ECC71</color>
+
+    <!-- Colors of Rate Trip screen -->
+    <color name="rate_font_orange">#F5A623</color>
+
+    <!--Color for promo popup-->
+    <color name="promo_container_invalid">#E94B35</color>
+    <color name="promo_container_valid">#1FCE6D</color>
 </resources>
